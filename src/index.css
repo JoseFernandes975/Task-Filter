@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --ds-background-color-primary: #55BC04;
+
+  --ds-font-color-primary: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.ds-container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
