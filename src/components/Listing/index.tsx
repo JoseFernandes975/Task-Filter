@@ -1,34 +1,20 @@
+import { ProductDTO } from '../../models/products';
 import './styles.css';
 
-export default function Listing() {
+type Props = {
+    products?: ProductDTO[];
+}
+
+export default function Listing({products}: Props) {
     return(
      <div className='ds-listing-container'>
         <div className='ds-listing-products-container'>
-            <div className='ds-product'>
-                <p>PC Gamer Pro</p>
-                <h2>R$ 1200.00</h2>
-            </div>
-            <div className='ds-product'>
-                <p>PC Gamer Pro</p>
-                <h2>R$ 1200.00</h2>
-            </div>
-            <div className='ds-product'>
-                <p>PC Gamer Pro</p>
-                <h2>R$ 1200.00</h2>
-            </div>
-            <div className='ds-product'>
-                <p>PC Gamer Pro</p>
-                <h2>R$ 1200.00</h2>
-            </div>
-            <div className='ds-product'>
-                <p>PC Gamer Pro</p>
-                <h2>R$ 1200.00</h2>
-            </div>
-            <div className='ds-product'>
-                <p>PC Gamer Pro</p>
-                <h2>R$ 1200.00</h2>
-            </div>
-            
+
+         {
+            products &&
+            products.map(x => <div key={x.id} className='ds-product'> <p>{x.name}</p> <h2>R$ {x.price}</h2></div> )
+         }
+
         </div>
 
      </div>
