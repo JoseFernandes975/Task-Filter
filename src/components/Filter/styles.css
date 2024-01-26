@@ -1,6 +1,6 @@
 .ds-filter-container {
-    background-color: #FFFFFF;
-    border: 1px solid #C2C2C2;
+    background-color: var(--ds-background-color-tertiary);
+    border: 1px solid var(--ds-border-color-primary);
     border-radius: 5px;
     padding: 20px;
     display: flex;
@@ -11,7 +11,7 @@ form {
 }
 
 form input {
-    border: 1px solid #C2C2C2;
+    border: 1px solid var(--ds-border-color-primary);
     border-radius: 5px;
     height: 40px;
     width: 100%;
@@ -20,14 +20,14 @@ form input {
 }
 
 form input::placeholder {
-    color: #C2C2C2;
+    color: var(--ds-font-color-secondary);
 }
 
 form button {
-    background-color: #55BC04;
+    background-color: var(--ds-background-color-primary);
     border-radius: 5px;
     height: 40px;
     width: 100%;
-    color: #FFFFFF;
+    color: var(--ds-font-color-primary);
     font-weight: 700;
 }

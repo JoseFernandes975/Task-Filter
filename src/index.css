@@ -3,8 +3,16 @@
 :root {
   --ds-background-color-primary: #55BC04;
   --ds-background-color-secondary: #C2C2C2;
+  --ds-background-color-tertiary: #FFFFFF;
 
   --ds-font-color-primary: #FFFFFF;
+  --ds-font-color-secondary: #C2C2C2;
+  --ds-font-color-tertiary: #6F6F6F;
+  --ds-font-color-quartenary: #55BC04;
+
+  --ds-border-color-primary: #C2C2C2;
+  --ds-border-color-secondary: #55BC04;
+
 }
 
 * {

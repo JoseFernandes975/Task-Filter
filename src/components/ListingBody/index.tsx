@@ -1,4 +1,5 @@
 import Filter from '../Filter';
+import Listing from '../Listing';
 import './styles.css';
 
 export default function ListingBody(){
@@ -6,6 +7,8 @@ export default function ListingBody(){
      <main>
         <section id='ds-listing-body-section' className='ds-container'>
           <Filter />
+
+          <Listing />
         </section>
      </main>
     );

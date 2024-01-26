@@ -1,0 +1,27 @@
+.ds-listing-container {
+    background-color: var(--ds-background-color-tertiary);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.ds-listing-products-container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+.ds-product {
+    border: 1px solid var(--ds-border-color-secondary);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ds-product p {
+    color: var(--ds-font-color-tertiary);
+    font-size: 12px;
+}
+
+.ds-product h2 {
+    color: var(--ds-border-color-secondary);
+    font-size: 16px;
+}
