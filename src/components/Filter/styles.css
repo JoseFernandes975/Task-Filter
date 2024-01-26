@@ -1,0 +1,33 @@
+.ds-filter-container {
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+}
+
+form {
+    max-width: 200px;
+}
+
+form input {
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+}
+
+form input::placeholder {
+    color: #C2C2C2;
+}
+
+form button {
+    background-color: #55BC04;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: 700;
+}

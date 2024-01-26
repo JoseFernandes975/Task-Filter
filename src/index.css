@@ -2,6 +2,7 @@
 
 :root {
   --ds-background-color-primary: #55BC04;
+  --ds-background-color-secondary: #C2C2C2;
 
   --ds-font-color-primary: #FFFFFF;
 }
@@ -14,8 +15,16 @@
   font-family: 'Roboto';
 }
 
+body {
+  background-color: var(--ds-background-color-secondary);
+}
+
 .ds-container {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+}
+
+.ds-mb20 {
+  margin-bottom: 20px;
 }
